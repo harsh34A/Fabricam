@@ -18,10 +18,8 @@ var onDefault=function(req, res){
     res.send("<h1>Transflower Learning Pvt. Ltd</h1>"+
               "<hr/>"+
               "<ol>"+
-                    " <li>Mentoring for skill building</li>"+
-                    " <li>Workshops</li>"+
-                    " <li>Online Course</li>"+
-                    " <li>Corporate Training</li>"+
+                    " <li>1. Fabrikam is a multinational company has their 24 Offices all over world. Company wanted to build and </li>"+
+                  
              "</ol>");
 };
 app.get("/",onDefault);  // Request handler functions are registered
